@@ -1,6 +1,6 @@
 # 一、编译原理
 C++的编译主要包含四个步骤：
-![image](https://github.com/iamstarlee/CXX-Tricks/assets/44799727/95e142ba-c7a2-40f9-8abf-1ec5b6cf536d)
+![image](https://github.com/iamstarlee/CXX-Tricks/assets/44799727/95e142ba-c7a2-40f9-8abf-1ec5b6cf536d)</br>
 **预处理器**：宏定义替换，头文件展开，条件编译展开，删除注释。
 - gcc -E选项可以得到预处理后的结果，扩展名为.i 或 .ii。
 - C/C++预处理不做任何语法检查，不仅是因为它不具备语法检查功能，也因为预处理命令不属于C/C++语句（这也是定义宏时不要加分号的原因），语法检查是编译器要做的事情。
