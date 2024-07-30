@@ -4,6 +4,8 @@ This is a repository designed to facilitate learning C++ and enhance understandi
 ## 1. C++ compilation in Ubuntu
 ```bash
 g++ -o main main.cpp
+```
+```bash
 ./main
 ```
 
