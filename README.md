@@ -1,6 +1,15 @@
 # CPlusPlus-Tricks
 This is a repository designed to facilitate learning C++ and enhance understanding of its fundamental concepts.
 
+## 2. 二维vector的初始化
+```C++
+#define M 4
+#define N 4
+
+// one step, recommended
+vector<vector<int>> matrix(M, vector<int>(N, 0));
+```
+
 ## 1. C++ compilation in Ubuntu
 ```bash
 g++ -o main main.cpp
