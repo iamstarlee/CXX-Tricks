@@ -1,5 +1,12 @@
-# CPlusPlus-Tricks
-This is a repository designed to facilitate learning C++ and enhance understanding of its fundamental concepts.
+## 3. sort的lambda写法
+```c++
+std::sort(x, x + n,
+          // Lambda expression begins
+          [](float a, float b) {
+              return (std::abs(a) < std::abs(b));
+          } // end of lambda expression
+        );
+```
 
 ## 2. 二维vector的初始化
 ```C++
