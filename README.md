@@ -1,7 +1,8 @@
 ## 4. Convert string to integer
 The C stdlib library atoi() function is used to convert a numeric string into integer value. Remember to convert string to char before using it.
 ```C++
-atoi(token.c_str())
+string token;
+atoi(token.c_str());
 ```
 
 ## 3. sort的lambda写法
