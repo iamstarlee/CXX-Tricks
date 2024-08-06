@@ -19,3 +19,5 @@ This illustration shows the parts of lambda syntax:
 4. exception-specification Optional.
 5. trailing-return-type Optional.
 6. lambda body.
+
+[source: https://learn.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170](https://learn.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-170)
