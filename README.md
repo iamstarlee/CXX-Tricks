@@ -1,3 +1,9 @@
+## std::iota in C++
+```C++
+void iota (ForwardIterator first, ForwardIterator last, T val);
+```
+Store increasing sequence, assign to every element in the range [first, last] successive values of val.
+
 ## 4. Convert string to integer
 The C stdlib library atoi() function is used to convert a numeric string into integer value. Remember to convert string to char before using it.
 ```C++
