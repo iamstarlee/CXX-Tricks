@@ -1,4 +1,7 @@
-## std::iota in C++
+## 6. this指针
+在C++中，`this`指针指向对象的实例，每一个对象都可以通过`this`指针来访问自己的地址。友元函数没有`this`指针，因为友元不是类的成员，只有成员函数才有`this`指针。
+
+## 5. std::iota in C++
 ```C++
 void iota (ForwardIterator first, ForwardIterator last, T val);
 ```
