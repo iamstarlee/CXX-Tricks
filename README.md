@@ -1,3 +1,13 @@
+## 9. C++中的pair
+```C++
+pair<ListNode*, ListNode*> results = f();
+head = results.first;
+tail = results.second;
+//等价于
+tie(head, tail) = f();
+// 使用tie直接将结果更新到head和tail中[
+```
+
 ## 8. 哈希表的遍历for(auto& count: counts)
 如果没有&，每次遍历都会给重新开辟空间存放遍历的值，空间复杂度是O（n），而使用引用的话，即使用同一块空间。
 
