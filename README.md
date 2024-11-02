@@ -1,3 +1,9 @@
+## 10. 二维vector的最后一行
+```C++
+vector<vector<int>>& triangle
+triangle.back()
+```
+
 ## 9. C++中的pair
 ```C++
 pair<ListNode*, ListNode*> results = f();
