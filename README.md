@@ -1,3 +1,10 @@
+## decltype关键字  
+decltype关键字是C++11新标准引入的关键字，它和关键字auto的功能类似，也可以自动推导出给定表达式的类型，但它和auto的语法有些不同，auto推导的表达式放在“=”的右边，并作为auto所定义的变量的初始值，而decltype是和表达式结合在一起
+```C++
+int i = 4;
+decltype(i) a; //推导结果为int。a的类型为int。
+```
+
 ## 10. 二维vector的最后一行
 ```C++
 vector<vector<int>>& triangle
